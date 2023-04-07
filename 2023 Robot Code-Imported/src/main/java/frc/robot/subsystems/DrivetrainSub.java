@@ -122,14 +122,14 @@ public class DrivetrainSub extends SubsystemBase {
     m_nav.zeroYaw();
   }
 
-  public Rotation2d getRot(){
+  public Rotation2d getRot2d(){
     return m_nav.getRotation2d();
   }
 
   
 
   public float getYaw(){
-    System.out.println("YAW: " +m_nav.getYaw
+    System.out.println("YAW: " + m_nav.getYaw
     ());
     System.out.println("ANGLE: " + m_nav.getAngle());
     return m_nav.getYaw();
